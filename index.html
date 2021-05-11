@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MikeBinerowskiWebDesignAssingment1</title>
+</head>
+
+<body>
+<h1>Introduction to HTML by Mike Binerowski </h1>
+<h2>Doctype</h2>
+	<p>&lt;doctype&gt; tag is used to inform the browser about the version of HTML used in the document. 
+	&lt;!doctype html&gt;<br>
+  &lt;html&gt;<br>
+  &lt;head&gt;<br>
+&lt;title&gt;Title&lt;/title&gt;
+	</p>
+<h2>html</h2>
+	<p>html means Hyper Text Markup Language.
+	The html tag tells the browser that this is an HTML document.</p>
+<h2>head</h2>
+	<p>When writing in HTML, the head tag is used to contain specific information about a web page, often referred to as metadata. The head tag is always used before the open body.</p>
+	<h2>Body</h2>
+	<p>The body is where all the website's content will be places, all text, images or links. All content must be within the body.</p>
+	<h2>Title</h2>
+	<p>The title tag is used to give the file a name, but only visible in the open file itself, for example the first or main file will always be called index, but when opened the title can be different.
+	eg. &lt;title&gt;Your Title&lt;/title&gt;
+	</p>
+	<h2>P</h2>
+	<p>P, stands for paragraph. It is one of the most basic tags and used commonly to create paragraphs for websites.
+	&lt;p&gt;paragraph&lt;/p&gt;
+	</p>
+	<h2>span</h2>
+	<p>The HTML span tag is used for grouping and applying styles to inline elements.
+	 &lt;p&gt; My cat has  &lt;span&gt; style=&quot;color:black&quot;&gt;black&lt;/span&gt; fur.&lt;/p&gt;
+	</p>
+	<h2>div</h2>
+	<p>The div tag defines a division or a section in an HTML document. The div element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.
+		 &lt;div style=&quot;background-color:coral&quot;&gt;
+	</p>
+	<h2>Headings h1 to h6</h2>
+	<p>Heading 1 &lt;h1&gt;heading 1&lt;/h1&gt; is the biggest heading used for something important while heading 6 &lt;h6&gt;heading 6&lt;/h6&gt; is used for less the least important headings
+<h1>important heading</h1>
+	<h6>Not important heading</h6>
+	</p>
+	<h2>Formatting elements</h2>
+<p>
+	&lt;i&gt;italics&lt;/i&gt; changes text to <i>italic.</i><br>
+	&lt;strong&gt;Strong&lt;/strong&gt; Changes text to <strong>bold</strong>. <br>
+	&lt;mark&gt;text to be marked&lt;/mark&gt; Marks <mark>text</mark> <br>
+	&lt;small&gt;Small&lt;/small&gt; Makes text <small>small </small><br>
+	&lt;del&gt;Text to be deleted&lt;/del&gt; This doesnt delete text but rather puts a <del>striketrough</del> trough it. <br>
+	&lt;sub&gt;Subscript&lt;/sub&gt; Adds subscript effect to tex<sub>t</sub>. <br>
+	&lt;sup&gt;Superscript&lt;/sup&gt; Adds superscript to tex<sup>t</sup>.</p>
+	
+<h2>Tables</h2>
+<p>A table is defined using the &lt;table&gt; element, and contains a number of table cells ( &lt;td&gt;, for "table data" ) which are organized into table rows ( &lt;tr&gt;). The markup for a table is always based on rows, never columns.
+	Example:
+	
+	
+</p>
+<p>&lt;tr&gt;<br>
+  &lt;th&gt;First name&lt;/th&gt;<br>
+  &lt;th&gt;Last name&lt;/th&gt; <br>
+  &lt;th&gt;Date of Birth&lt;/th&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+  &lt;td&gt;Jill&lt;/td&gt;<br>
+  &lt;td&gt;Smith&lt;/td&gt; <br>
+  &lt;td&gt;20/03/1994&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+  &lt;td&gt;Eve&lt;/td&gt;<br>
+  &lt;td&gt;Jackson&lt;/td&gt; <br>
+  &lt;td&gt;5/01/1995&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+&lt;/table&gt;</p>
+<table>
+<tr>
+<td>First name</td>
+<td>Last name</td> 
+<td>Date of Birth</td>
+</tr>
+<tr>
+<td>Jill</td>
+<td>Smith</td> 
+<td>20/03/1994</td>
+</tr>
+<tr>
+<td>Eve</td>
+<td>Jackson</td> 
+<td>5/01/1995</td>
+</tr>
+	</table>
+<h2>Caption</h2>
+<p>The &lt;caption&gt; tag defines a table caption. The &lt;caption&gt; tag must be entered straight after the &lt;table&gt; tag
+	Example:
+<table>
+<caption>Grades</caption>
+<tr>
+<th>Test</th>
+<th>Grade</th>
+</tr>
+<tr>
+<td>Maths</td>
+<td>C</td>	
+</tr>
+</table>
+	
+	
+	
+	</p>
+
+<h2>Lists</h2>
+<p>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.
+The list items will be marked with bullets.
+	Example: </p>
+	<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+	
+	
+	
+	
+An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag.
+The list items will be marked with numbers by default
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>	
+
+	
+	</ol>
+
+	
+	<h2>Images and Alt</h2>
+<p>To insert an image to html use &lt;img src="image name" alt="Image name in case image doesnt show"&gt;
+	The purpose of "Alt" is to give the image a name if the image doesnt show for whatever reaason.
+	
+	<img src="images/Black_star.20.png" alt="Tatoo">
+</p>
+<p>&nbsp;</p>
+ <h2>links</h2>
+<p>HTML links are hyperlinks.
+You can click on a link and jump to another document.
+When you move the mouse over a link, the mouse arrow will turn into a little hand.
+Example:
+	<a href="https://www.facebook.com/">Facebook</a></p>
+
+<h2>Quote and blockquote</h2>
+&lt;q&gt; tag is used to insert a quatation.
+Example:
+<p>Facebook says:
+	<q>We will always be a free service</q> </p>
+<p>The &lt;blockquote&gt; tag specifies a section that is quoted from another source.
+
+Example: 
+	<blockquote cite="https://www.bbc.com/news/science-environment-51099609"> Scientists analysing a meteorite have discovered the oldest material known to exist on Earth.
+They found dust grains within the space rock - which fell to Earth in the 1960s - that are as much as 7.5 billion years old. </blockquote> </p>
+<h2>Abbreviations</h2>
+<p>
+	The &lt;abbr&gt; tag defines an abbreviation or an acronym, like "HTML", "Mr.", "Dec.", "ASAP", "ATM". 
+	Example:
+	The <abbr title="National Aeronautics and Space Administration">NASA</abbr> was founded in July 29, 1958.
+
+</p>
+<h2>Meta</h2>
+<p>Metadata is data (information) about data.
+The &lt;meta&gt; tag provides metadata about the HTML document. Metadata will not be displayed on the page.
+Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.
+Example:
+	&lt;meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript"&gt;
+</p>
+
+<h2>Forms</h2>
+<p>The HTML &lt;form&gt; element defines a form that is used to collect user input
+Example:
+	&lt;form&gt;
+  First name:&lt;br&gt;
+  &lt;input type="text" name="firstname"&gt;&lt;br&gt;
+  Last name:&lt;br&gt;
+  &lt;input type="text" name="lastname"&gt;
+&lt;/form&gt;
+
+
+	<form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+</form> 
+	
+	
+</p>
+<h2>Special symbols and character entities</h2>
+<p>To add symbols to an HTML page, you can use an HTML entity name.
+If no entity name exists, you can use an entity number, a decimal, or hexadecimal reference. 
+
+Examples: <br>
+	
+	&ampcopy; will show = © <br>
+	&ampreg; will show = ® <br>
+	&amp;amp; will show = &amp; <br>
+	 &amp;euro; will show = &euro; <br>
+	&amp;nbsp; will show the non-breaking space= &nbsp; <br>
+	&amp;lt; will show = &lt; <br>
+	&amp;gt; will show = &gt; </p>
+
+
+	<p><a href="css_assignment.html">CSS</a></p>
+	
+	
+	
+</body>
+</html>
